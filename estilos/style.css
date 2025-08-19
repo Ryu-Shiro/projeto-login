@@ -4,4 +4,10 @@
 Indigo : 033f63
 Aquamarine: bcffdb
 Periwinkle: beb7df
- */
+*/
+
+:root {
+    --cor01: #033f63;
+    --cor02: #bcffdb; 
+    --cor03: #beb7df;
+}
