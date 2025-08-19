@@ -20,5 +20,16 @@ Periwinkle: beb7df
 
 body, html {
     min-height: 100vh;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to left,var(--cor02),var(--cor03), var(--cor01) )
+}
+
+main {
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid black;
 }
