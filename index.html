@@ -15,23 +15,25 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja Bem Vindo</p>
-                <form action="login.php" method="post">
-                    <p>
+                <form action="login.php" method="post" autocomplete="on">
+                    
+                    <div class="camp">
                         <label for="ilog">
                         <span class="material-symbols-outlined">account_box</span>
                         </label>
-                        <input type="email" name="login" id="ilog">
-                    </p>
-                    <p>
+                        <input type="email" name="login" id="ilog" placeholder="Seu e-mail" autocomplete="email" required>
+                    </div>
+                    
+                    <div class="camp"> 
                         <label for="ipass">
                         <span class="material-symbols-outlined">key</span>
                         </label>
-                        <input type="password" name="pass" id="ipass">
-                    </p>
-                    <p>
-                        <button type="submit">Entrar</button>
-                    </p>
-                    <p><a href="#" class="forgot-password">Esqueci minha senha</a></p>
+                        <input type="password" name="pass" id="ipass" placeholder="Sua Senha" autocomplete="current-password" required>  
+                    </div>
+                    
+                    <button type="submit">Entrar</button>
+                    
+                    <a href="#" class="forgot-password">Esqueci minha senha</a>
                 </form>
             </div>
         </section>
